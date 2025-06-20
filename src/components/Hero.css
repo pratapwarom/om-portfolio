@@ -1,0 +1,64 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #800000, #4d0000);
+  color: #f4e6c1;
+  font-family: 'Poppins', sans-serif;
+  flex-wrap: wrap;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+}
+
+.hero-content .highlight {
+  color: #f4e6c1;
+  font-weight: bold;
+}
+
+.hero-content p {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.btn {
+  background-color: #f4e6c1;
+  color: #800000;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+}
+
+.hero-img img {
+  width: 250px;
+  border-radius: 50%;
+  border: 4px solid #f4e6c1;
+}
+.resume-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #2c77f4;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #125edb;
+}
