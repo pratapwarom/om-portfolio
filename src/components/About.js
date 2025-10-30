@@ -3,17 +3,25 @@ import './About.css';
 
 function About() {
   return (
-    <section className="about" id="about" data-aos="fade-down">
+    <section className="about" id="about" data-aos="fade-up">
       <h2>About Me</h2>
-      <div className="about-card">
+      <div className="about-divider"></div>
+      
+      <div className="about-card" data-aos="zoom-in">
         <p>
-          I’m <strong>Ayush Mahto</strong>, a final year B.Tech student at MIT ADT University Pune. I'm passionate about full-stack development and building real-world, accessible applications.
+          I’m <strong>Om Pratapwar</strong>, a Third Year B.Tech student at MIT ADT University, Pune. 
+          I'm passionate about <strong>full-stack development</strong> and building real-world, accessible applications 
+          with a focus on modern design and clean code.
         </p>
         <p>
-          I specialize in modern JavaScript frameworks like React and backend tech like Node.js and Express. I love turning creative ideas into professional web experiences.
+          I specialize in <strong>React.js</strong>, <strong>Node.js</strong>, and <strong>Express.js</strong>, 
+          crafting seamless experiences that blend creativity and performance. 
+          I enjoy translating ideas into visually engaging, functional products.
         </p>
         <p>
-          My projects include voice-based assistants, smart QR generators, and responsive portfolio sites. I’m always eager to learn and build things that make an impact.
+          My work includes <strong>voice-based assistants</strong>, <strong>QR generators</strong>, 
+          and <strong>responsive portfolio websites</strong>. 
+          I’m always eager to learn, collaborate, and contribute to impactful digital projects.
         </p>
       </div>
     </section>

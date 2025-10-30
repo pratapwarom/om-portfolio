@@ -1,8 +1,75 @@
-.success-message {
-  font-size: 1.2rem;
-  color: green;
-  background-color: #e6ffe6;
+.contact {
+  padding: 5rem 2rem;
+  background-color: #f9fafb;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.contact-subtitle {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
   padding: 1rem;
-  margin-top: 2rem;
-  border-radius: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #800000; /* your maroon brand color */
+  box-shadow: 0 0 8px rgba(128, 0, 0, 0.15);
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contact-btn {
+  background-color: #800000;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #a00000;
+  box-shadow: 0 4px 10px rgba(128, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+  .contact {
+    padding: 4rem 1rem;
+  }
+  .contact-form {
+    width: 100%;
+  }
 }
