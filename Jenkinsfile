@@ -2,13 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone') {
-            steps {
-                git credentialsId: 'github-token',
-                    url: 'https://github.com/pratapwarom/om-portfolio.git'
-            }
-        }
-
         stage('Build') {
             steps {
                 echo 'Building portfolio project...'
